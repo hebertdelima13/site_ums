@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: GothamproBold;
-    src: url(fonts/GothamPro-Bold.ttf);
+    src: url(https://hebertdelima13.github.io/site_ums/fonts/GothamPro-Bold.ttf);
 }
 
 @font-face {
     font-family: GothamproRegular;
-    src: url(fonts/GothamPro.ttf);
+    src: url(https://hebertdelima13.github.io/site_ums/fonts/GothamPro.ttf);
 }
 
 body {
@@ -96,7 +96,7 @@ body {
 
 .banner-section {
     height: 450px;
-    background-image: url(images/banner/banner.jpg);
+    background-image: url(https://hebertdelima13.github.io/site_ums/images/banner/banner.jpg);
     background-position: center;
     background-size: cover;
 }
