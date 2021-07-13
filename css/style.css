@@ -210,6 +210,10 @@ body {
     text-align: justify;
 }
 
+.about-our-team-texto p {
+    margin-bottom: 15px;
+}
+
 .about-our-team-right {
     margin-left: 70px;
 }
@@ -246,6 +250,10 @@ body {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.equipment-subtitulo-celular {
+    display: none;
 }
 
 .equipment-photo {
@@ -562,6 +570,8 @@ body {
 
 @media (max-width:450px) {
        
+    /*HEADER*/
+
     .logo {
         display: none;
     }
@@ -664,4 +674,75 @@ body {
         color: #405a8b;
         text-decoration: none;
     }
+
+
+    /*ABOUT OUR TEAM*/
+
+    .about-our-team {
+        background-image: none;
+    }
+
+    .about-our-team-container {
+        flex-direction: column;
+    }
+
+    .about-our-team-left {
+        margin-top: 100px;
+        margin-right: 0px;
+        max-width: 350px;
+    }
+
+    .about-our-team-texto p {
+        margin-bottom: 15px;
+    }
+
+    .about-our-team-right {
+        margin-right: 70px;
+    }
+    
+    .about-our-team-right img {
+        width: 350px;
+        height: 200px;
+    }
+
+    /*EQUIPMENT*/
+
+    .equipment {
+        margin-top: 50px;
+    }
+
+    .equipment-container {
+        align-items: center;
+        justify-content: center; 
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+    }
+    
+    .equipment-subtitulo {
+        display: none;
+    }
+
+    .equipment-subtitulo-celular {
+        font-family: GothamproRegular;
+        font-size: 13px;
+        color: #4f4f4f;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        display: block;
+        max-width: 350px;       
+    }
+
+    .equipment-photo {
+        background-color: #f7f8fc;
+        width: 350px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 13px;
+        
+    }
+    
+    
 }
