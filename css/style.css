@@ -407,6 +407,10 @@ body {
     border-radius: 10px 10px 0px 0px;   
 }
 
+.slide-celular {
+    display: none;
+}
+
 .leave-request-button {
     align-items: center;
     justify-content: center;
@@ -502,16 +506,6 @@ body {
     border-bottom: 1px solid #b4bdd1;
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer-down-contact {
     flex: 3;
     margin-left: 60px;
@@ -561,6 +555,10 @@ body {
     margin-right: 10px;
 }
 
+.footer--up-cel {
+    display: none;
+}
+
 
 .headercelular {
     display: none;
@@ -571,6 +569,10 @@ body {
 @media (max-width:450px) {
        
     /*HEADER*/
+
+    body {
+        overflow-x: hidden;
+    }
 
     .logo {
         display: none;
@@ -744,5 +746,178 @@ body {
         
     }
     
+    /*GALLERY*/
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gallery-container {
+        margin-left: 12px;
+        margin-top: 30px;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slide {
+        display: none;
+    }    
+
+    .slide-celular {
+        display: block;
+        margin-top: 20px;
+        width: 350px;
+        height: 340px;
+        background-color: #fff;
+        border-bottom: 1px solid #fff;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 1px 1px 7px #dfdfdf;
+    }
     
+    .slide-titulo-celular {
+        font-family: GothamproBold;
+        font-size: 14px;
+        color: #4f4f4f;
+        margin-top: 10px;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    
+    .slide-descricao-celular {
+        font-family: GothamproRegular;
+        font-size: 13px;
+        color: #4f4f4f;
+        margin-top: 10px;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    
+    .slide-foto-celular img {
+        width: 350px;
+        height: 205px;
+        border-radius: 10px 10px 0px 0px;   
+    }
+    
+    .leave-request-button {
+        margin-top: 20px;
+        margin-left: -475px;
+    }
+
+    /*FOOOTER*/
+
+    .footer--up {
+        display: none;
+    }
+
+    .footer--down {
+        display: none;
+    }
+
+    .footer--up-cel {
+        background-color: #405a8b;
+        display: flex;
+        height: 140px;
+        margin-top: -20px;
+    }
+
+    .footer-container-up-cel {
+        border-bottom: 1px solid #5a6a93;
+        width: 350px;
+        margin-left: 10px;
+    }
+    
+    .footer-up-cel {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .footer-up-logo-cel {
+        flex: 1;
+    }
+
+    .footer-up-logo-cel img {
+        width: 55px;
+        height: 77px;
+    }
+    
+    .footer-up-contact-cel {
+        flex: 3;
+    }
+    
+    .footer-up-contact-telefone-cel {
+        font-family: GothamproBold;
+        font-size: 17px;
+        color: #fff;
+        margin-bottom: 15px;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .footer-up-contact-telefone-cel img {
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+    }
+    
+    .footer-up-contact-place-cel {
+        font-family: GothamproRegular;
+        font-size: 13px;
+        color: #b4bdd1;
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .footer-up-contact-place-cel img {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    
+    .footer-up-contact-email-cel {
+        font-family: GothamproRegular;
+        font-size: 13px;
+        color: #b4bdd1;
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .footer-up-contact-email-cel img {
+        height: 12px;
+        width: 17px;   
+        margin-right: 10px;
+    }
+
+
+
+    .footer--down-cel {    
+        background-color: #405a8b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-down-cel {
+        display: flex;
+        height: 350px;
+        margin-top: 20px;        
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-down-left-cel {
+        font-family: GothamproRegular;
+        font-size: 13px;
+        color: #b4bdd1;
+        display: flex;
+        text-align: center;
+    }
+
+
 }
