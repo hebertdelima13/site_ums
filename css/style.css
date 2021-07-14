@@ -910,7 +910,7 @@ body {
     
     .footer-down-cel {
         display: flex;
-        height: 350px;
+        height: 100px;
         margin-top: 20px;        
         flex-direction: column;
         align-items: center;
